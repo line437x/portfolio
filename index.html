@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Rakkas&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Portfolio landing page</title>
+	</head>
+	<body>
+		<!-- Toggle -->
+		<div class="toggle-container"><input class="btn" type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label></div>
+		<header>
+			<div class="h1-wrapper">
+				<h1>Line Berner</h1>
+			</div>
+			<nav>
+				<a href="#about_section">about</a>
+				<a href="#work_section">work</a>
+				<a href="#contact_section">contact</a>
+			</nav>
+		</header>
+		<main>
+			<section id="about_section">
+				<h2>about</h2>
+				<p>Hi and welcome!</p>
+				<p>My name is Line Berner and I’m a Multimedia Design student at KEA. My interests and focus are both on designing and developing web content and solutions. I have always loved the digital and graphic world, and I don't think I can ever get enough.</p>
+
+				<p>Before I started at KEA I had never ever seen an HTML file in my life but see where I’m at now only 1,5 years later. I really enjoy getting all this new knowledge and creating stuff with just my bare hands and a little help from my laptop :)</p>
+
+				<p>Currently, I'm on a Frontend Design elective where the focus mainly is on HTML, CSS, and JavaScript. Here, I really feel that I get into the depth of what JavaScript is capable of and how I can use it in my work.</p>
+
+				<p>As a person, I’m creative, social, and last but not least: Hardworking. I hope you will enjoy my work and if you have any questions or just want to get in contact, please feel free to hit me up. You will find my information below in the footer and the contact section</p>
+			</section>
+			<section id="work_section">
+				<h2>work</h2>
+				<p>Here is a little selection and overview of some of my work and projects. If you want to see the full web-project there is a link that will direct you to that.</p>
+				<p>- Hope you will enjoy!</p>
+				<div class="card">
+					<div class="card_content">
+						<img class="hogwarts" src="images/hogwarts_mockup.webp" alt="mockup" />
+					</div>
+					<div class="card_text">
+						<h3>Hogwarts Student List</h3>
+						<p>This was a project in the beginning of 3th semester, and was made individually. The assignment was to get data on Hogwarts students and after cleaning the data, make it possible to sort, filter, assign students to different kind of lists, expell and more.</p>
+						<h4>Skills used in this project:</h4>
+						<ul>
+							<li>HTML, CSS and a lot of JavaScript</li>
+							<li>Rest API</li>
+						</ul>
+
+						<button><a href="https://lineberner.com/kea/3_semester/hogwarts_student_list/" target="blank">View website</a></button>
+						<button><a href="https://github.com/line437x/Hogwarts-student-list.git" target="blank">GitHub</a></button>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card_content">
+						<img src="images/dolah_eksamen_mockup.webp" alt="mockup" />
+					</div>
+					<div class="card_text">
+						<h3>Exam project</h3>
+						<p>This was the final project on my 2th semster at MMD KEA. The assignment was to redesign the webshop of a small start up. And my group choose 'Dolah Soap Bars'.</p>
+						<p>My primary role in this project was developing the website and setting up the site in wordpress.</p>
+						<h4>Skills used in this project:</h4>
+						<ul>
+							<li>Wordpress</li>
+							<li>Video and graphic content production</li>
+							<li>HTML, CSS and a bit of JavaScript</li>
+						</ul>
+
+						<button><a href="https://lineberner.com/kea/2_semester/dolah/" target="blank">View website</a></button>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card_content">
+						<img src="images/shakeit_mockup.webp" alt="mockup" />
+					</div>
+					<div class="card_text">
+						<h3>Shake it - Game</h3>
+						<p>This was a project on 1st semester, and also my first meeting with JavaScript. Here I designed and developed a simple game which can be played on the wesite linked here. On the website there is also a bit of the procces of making it.</p>
+						<h4>Skills used in this project:</h4>
+						<ul>
+							<li>HTML, CSS and JavaScript</li>
+							<li>Adobe Photoshop and Illustrator</li>
+						</ul>
+
+						<button><a href="http://lineberner.com/kea/04_animation/spil/shake_it/spil.html" target="blank">View website</a></button>
+						<button><a href="https://github.com/line437x/shake-it-game.git" target="blank">GitHub</a></button>
+					</div>
+				</div>
+			</section>
+			<section id="contact_section">
+				<div>
+					<h2>contact</h2>
+					<p>Do you like my work or do you have any suggestions or comments? Send me a message or an email - I’m sure I would love to get in touch with you</p>
+				</div>
+				<div class="contact_form">
+					<form autocomplete="on" action="https://formsubmit.co/line437x@stud.kea.dk" method="POST">
+						<input name="Email" type="email" placeholder="Mail" required />
+						<input name="Name" type="text" placeholder="Full Name / company" />
+						<input name="Number" type="tel" placeholder="Phone number" />
+						<textarea name="Message" id="" cols="30" rows="10" placeholder="What can I help you with?"></textarea>
+						<button type="submit" value="">Send message</button>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="contact">
+				<h4>Get in contact</h4>
+				<p>Line Berner Strømberg</p>
+				<p>
+					<a href="mailto:linebs@hotmail.dk">Linebs@hotmail.dk</a>
+				</p>
+			</div>
+			<div class="socials">
+				<h4>Find me</h4>
+				<div id="sociale_medier">
+					<div id="facebook" class="icons">
+						<a href="https://www.facebook.com/line.stromberg/" target="_blank"> <img src="images/facebook.svg" alt="Facebook logo" /></a>
+					</div>
+					<div id="linkedin" class="icons">
+						<a href="https://www.linkedin.com/in/line-berner-strømberg-914b53214/" target="_blank"> <img src="images/linkedin.svg" alt="linkedIn logo" /></a>
+					</div>
+					<div id="github" class="icons">
+						<a href="https://github.com/line437x" target="_blank"> <img src="images/gitHub.svg" alt="Github logo" /></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
