@@ -120,9 +120,9 @@ header {
 	justify-content: flex-start;
 	align-items: flex-end;
 	font-family: var(--font-display);
-	/* margin-inline: 1rem; */
 	height: 99vh;
 	text-align: end;
+	width: 95vw;
 }
 header h1 {
 	padding-bottom: 0rem;
