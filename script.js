@@ -9,7 +9,7 @@ function start() {
 	const headerTl = gsap.timeline();
 
 	// Fade in letters in h1
-	headerTl.from(".h1-wrapper span", { y: "200%", duration: 0.5, stagger: { amount: 0.5 }, delay: 0.5 }).from("nav a", { y: "-200%", stagger: { each: 0.2 } }, "-=0.3");
+	headerTl.from(".h1-wrapper span", { y: "200%", duration: 0.5, stagger: { amount: 0.5 }, delay: 0.5 }).from("nav a", { y: "-300%", stagger: { each: 0.25 } }, "-=0.3");
 
 	const sections = document.querySelectorAll("section");
 	console.log(sections);
