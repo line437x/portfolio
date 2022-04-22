@@ -1,6 +1,9 @@
 * {
 	box-sizing: border-box;
 }
+body {
+	overflow-x: hidden;
+}
 main {
 	display: grid;
 	grid-template-columns: minmax(0.5rem, 1fr) minmax(auto, 1200px) minmax(0.5rem, 1fr);
@@ -249,9 +252,11 @@ input[type="email"]:valid {
 }
 /* --------------- Footer ---------------*/
 footer {
+	height: 22rem;
 	background-color: var(--color-primary);
-	padding: 1rem;
+	padding: 2rem;
 	margin: -1rem;
+	/* overflow-y: hidden; */
 }
 footer h4,
 footer a,
@@ -269,7 +274,7 @@ footer p {
 }
 #sociale_medier img {
 	width: auto;
-	height: 3rem;
+	height: 2rem;
 	margin-inline-end: 1rem;
 	background-color: rgb(255, 252, 240);
 	border-radius: 50%;
@@ -280,5 +285,6 @@ footer p {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		justify-items: center;
+		align-items: center;
 	}
 }
