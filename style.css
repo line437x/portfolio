@@ -255,8 +255,6 @@ footer {
 	height: 22rem;
 	background-color: var(--color-primary);
 	padding: 2rem;
-	margin: -1rem;
-	/* overflow-y: hidden; */
 }
 footer h4,
 footer a,
